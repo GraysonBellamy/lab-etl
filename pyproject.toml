@@ -37,6 +37,9 @@ Documentation = "https://github.com/ulfsri/lab-etl#readme"
 Issues = "https://github.com/ulfsri/lab-etl/issues"
 Source = "https://github.com/ulfsri/lab-etl"
 
+[project.scripts]
+sta-ngb-parse = "labetl.netzsch_sta_ngb_parser:main"
+
 [tool.coverage.run]
 source_pkgs = ["labetl", "tests"]
 branch = true
